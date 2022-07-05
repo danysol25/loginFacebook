@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.contenedor-principal {
+    width: 100%;
+    height: 100%;
+}
+
+.sub-contenedor {
+    width: 100%;
+    height: 100%;
+}
+
+.bar {
+    width: 100%;
+    height: 90px;
+    background-color: #3b5998;
+}
+
+.cont-face {
+    float: left;
+    width: 50%;
+}
+
+.credenciales {
+    float: right;
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+/*Credenciales*/
+.correo, .Correo {
+    margin: 20px;
+    margin-top: 40px;
+}
+
+ .Correo {
+    height: 25px;
+    box-shadow: 1px 0px 1px gray;
+}
+
+.password, .Password {
+
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.Password {
+    height: 25px;
+    box-shadow: 1px 0px 1px gray;
+}
+
+.correo, .password {
+    color: white;
+}
+.login {
+    margin: 20px;
+    margin-top: 40px;
+    height: 25px;
+    width: 40px;
+    background-color: #4364a9;
+    border: none;
+    box-shadow: 1px 2px 2px black;
+color: white;
+}
+
+.facebook {
+    margin: 15px;
+    font-size: 50px;
+    color: white;
+}
+
+/*Contenido del formulario - contenedor derecho*/
+.formulario {
+    float: right;
+    width: 50%;
+}
+form {
+    height: 70%;
+    width: 100%;
+    margin: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 50px;
+    margin-bottom: 2px;
+    margin-left: 60px;
+}
+
+h3 {
+    margin: 20px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.contenedor-izquierdo {
+    float: left;
+    width: 30%;
+}
+
+.primer, .segundo {
+    margin: 30px;
+    height: 50px;
+    width: 40%;
+    margin-left: 35px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(128,128,128, 0.1);
+}
+
+.email {
+    margin-left: 35px;
+    width: 87%;
+    height: 50px;
+    padding: 5px;
+    background-color: rgb(128,128,128, 0.1);
+
+    border-radius: 5px;
+}
+
+h4 {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.cumple {
+    margin-left: 35px;
+    width: 20%;
+    height: 35px;
+    padding: 10px;
+    background-color: rgb(128,128,128, 0.1);
+border-radius: 5px;
+}
+
+.info {
+    margin-left: 35px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/*Generos*/
+
+.mujer, .female, .hombre, .male {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.mujer, .hombre {
+    background-color: rgb(128,128,128, 0.1);
+
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.female, .male {
+    margin-right: 40px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.condiciones {
+    margin-left: 35px;
+    margin-top: 26px;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+
+.register {
+    margin-left: 35px;
+    margin-top: 40px;
+    width: 300px;
+    height: 60px;
+    background-color: #00ad1a;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.frase {
+    margin: 30px;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 40px;
+    width: 100%;
+
+}
+
+input:hover {
+    border: 1px solid red;
+}
